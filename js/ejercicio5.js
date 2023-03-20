@@ -5,7 +5,6 @@
 const cadena = prompt('Ingrese una cadena de texto: ');
 let banderaMayus = false;
 let banderaMinus = false;
-
 function cadenaMayusculaMinuscula(cadena){
     for(let indice=0;indice<cadena.length;indice++){
         if(cadena.charAt(indice) === cadena.charAt(indice).toLowerCase() && cadena.charAt(indice) != ' ' ){
